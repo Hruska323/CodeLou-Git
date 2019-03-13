@@ -1,42 +1,62 @@
-/-=-=-=-=-=-==-==-=-=--==-=-=-==-=-=-=-==--=-=
-        Basic 
-/-=-=-=-=-=-==-==-=-=--==-=-=-==-=-=-=-==--=-=
+
 
 body {
- background-color: rgb(8, 53, 8);
+    background-color: rgb(94, 148, 94);
+
+ 
 }
 
-/-=-=-=-=-=-==-==-=-=--==-=-=-==-=-=-=-==--=-=
-
-/-=-=-=-=-=-==-==-=-=--==-=-=-==-=-=-=-==--=-=
 
 
 
 
 .main-header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-
+    flex-direction: row;
+    border: 43px;
+    background-color: ivory;
 }
 
-/-=-=-=-=-=-==-==-=-=--==-=-=-==-=-=-=-==--=-=
-        NAVi
-/-=-=-=-=-=-==-==-=-=--==-=-=-==-=-=-=-==--=-=
+/*
+.logo {
+    display: flex;
+    height: 200px;
+    width: 21px;
+    margin: auto;
+    padding: 1em;
+    border: 1px;
+}
+*/
+/*-----nav bar-----*/
+nav {
+    color: red;
+
+}
 
 .main-nav {
-    display: flex;
-    flex-direction: row;
+   
+    justify-content: space-evenly;
+    border: 2px;
+    align-self: auto;
+}
+/*-----nav bar-----*/
+
+
+
+/*------Main-text-------*/
+
+h1 {
+text-align: center;
 }
 
+.main-text {
+text-align: center;
 
+}
 
+/*------Main-text-------*/
 
-
-
-/-=-=-=-=-=-==-==-=-=--==-=-=-==-=-=-=-==--=-=
-
-/-=-=-=-=-=-==-==-=-=--==-=-=-==-=-=-=-==--=-=
 
 .gallary {
     display: flex;
