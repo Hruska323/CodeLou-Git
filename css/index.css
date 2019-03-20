@@ -1,12 +1,24 @@
 
+/*--Main ----*/
 
 body {
-    background-color: rgb(94, 148, 94);
+    background-image: url("https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")
+    ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 
- 
+
 }
 
+.img-5 {
+    height: 50px;
+    width: 50px;
+    border-radius: 1;
+    opacity: .9;
 
+}
+/*------*/
 
 
 
@@ -15,23 +27,24 @@ body {
      justify-content: space-between;
     flex-direction: row;
     border: 43px;
-    background-color: ivory;
+    background-image: url("https://images.pexels.com/photos/1998435/pexels-photo-1998435.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
 }
 
-/*
-.logo {
-    display: flex;
-    height: 200px;
-    width: 21px;
-    margin: auto;
-    padding: 1em;
-    border: 1px;
-}
-*/
+                /*
+                .logo {
+                    display: flex;
+                    height: 200px;
+                    width: 21px;
+                    margin: auto;
+                    padding: 1em;
+                    border: 1px;
+                }
+                */
 /*-----nav bar-----*/
 nav {
+    display: flex;
     color: red;
-
+    
 }
 
 .main-nav {
@@ -40,26 +53,141 @@ nav {
     border: 2px;
     align-self: auto;
 }
-/*-----nav bar-----*/
+/*----------*/
 
 
 
 /*------Main-text-------*/
 
+#firstImg {
+height: 400px;
+width: 400px;
+
+}
 h1 {
 text-align: center;
+color: #989898;
 }
 
-.main-text {
-text-align: center;
+h2 {
+    text-align: center;
+}
+
+#mainTitle{
+    height: 200px;
+    width: 200px;
+    color: whitesmoke;
+
+}
+.intro {
+    text-align: center;
+
+}
+  
+#midtext {
+    color: rgb(208, 221, 224);
 
 }
 
-/*------Main-text-------*/
+#illdotext {
+    color: whitesmoke;
+}
 
+/*-------------*/
 
+/*-----image gallary-----*/
 .gallary {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 5%;
 }
+img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10%;
+}
+/*----------*/
+
+/*-----button-----*/
+
+button {
+    display: flex;
+    margin: 10px auto 30px auto;
+    text-align: center;
+    justify-content: center;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+/*----------*/
+
+/*-----countdown clock-----*/
+#clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 30px; 
+    padding-bottom: 50px;
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: rgb(145, 76, 11); 
+    display: inline-block; 
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    background: red; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+/*----------*/
+
+/*-----form-----*/
+
+.form {
+    margin: auto;
+    padding: 20px 25%;
+    background-color: goldenrod;
+    border: 10px dashed black;
+    color: white;
+
+
+    
+}
+
+
+
+
+/*-----form-----*/
+
+
+#img6 {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    
+}
+
+
+/*-----footer-----*/
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+
+}
+
+
+/*----------*/
+
