@@ -3,7 +3,7 @@
 // jQueryFunctionName:  hover()
 // Then what: addClass 
 
-    
+ /*---------highlight imgs-------*/   
 //On Hover
    $('.gallary img').mouseover(function() {
         $(this).addClass('hover');
@@ -17,27 +17,10 @@
 
 
 
-   // this in jquery
-   /*
-   $('selector name').jQueryFunctionName(function() {
-   
-   } */
-   
-   /* Example of a function
-   
-       var myFunction = function() {
-           alert( "ready2!" );
-       }
-   
-   */
-   
-   // $ is equivelent to jQuery
-
-// argument is the value of the parameter when you call the function
-
+  
 /*-----------*/
 
-/*----countdown clock-------*/        
+// /*----countdown clock-------*/copied js tempalte from W3 schools       
         var deadline = new Date("may 4, 2019 17:37:25").getTime(); 
         
         var x = setInterval(function() { 
