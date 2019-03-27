@@ -11,13 +11,18 @@ body {
 
 }
 
-.img-5 {
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.img5 {
     height: 50px;
     width: 50px;
     border-radius: 1;
     opacity: .9;
-
 }
+
 /*------*/
 
 
@@ -42,16 +47,25 @@ body {
                 */
 /*-----nav bar-----*/
 nav {
-    display: flex;
     color: red;
     
 }
 
 .main-nav {
    
-    justify-content: space-evenly;
+    
     border: 2px;
     align-self: auto;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-content {
+    padding: 20px;
 }
 /*----------*/
 
@@ -101,12 +115,16 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto;
-    padding: 5%;
 }
+
 img {
     width: 200px;
     height: 200px;
     margin-bottom: 10%;
+}
+
+.gallary img.hover {
+    border: 5px solid red;
 }
 /*----------*/
 
@@ -190,4 +208,18 @@ smalltext{
 
 
 /*----------*/
+@media only screen and (min-width : 480px) {
+    .main-nav ul {
+        flex-direction: row;
+    }
 
+}
+ @media only screen and (min-width : 722px) {
+    .gallary {
+        flex-wrap: nowrap;
+    }
+    .gallary > div {
+        width: 25%;
+        margin-right: 5px;
+    }
+}
