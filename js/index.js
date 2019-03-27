@@ -1,7 +1,6 @@
 
-// selector: .gallary img
-// jQueryFunctionName:  hover()
-// Then what: addClass 
+
+
 
  /*---------highlight imgs-------*/   
 //On Hover
