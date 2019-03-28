@@ -19,7 +19,7 @@
   
 /*-----------*/
 
-// /*----countdown clock-------*/copied js tempalte from W3 schools       
+// /*----countdown clock-----copied js tempalte from W3 schools --*/      
         var deadline = new Date("may 4, 2019 17:37:25").getTime(); 
         
         var x = setInterval(function() { 
